@@ -1,0 +1,48 @@
+baseURL = "http://europatoken.github.io/"
+languageCode = "en-us"
+title = "Europa Token"
+theme = ["ananke"]
+resourceDir = "resources"
+
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[languages]
+  [languages.en]
+    title = "Europa Token"
+    weight = 1
+    contentDir = "content/en"
+#   [languages.fr]
+#     title = "Mon blogue"
+#     weight = 2
+#     contentDir = "content/fr"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  favicon = ""
+  site_logo = ""
+  description = ""
+  facebook = ""
+  twitter = ""
+  instagram = ""
+  youtube = ""
+  github = ""
+  gitlab = ""
+  linkedin = ""
+  mastodon = ""
+  slack = ""
+  stackoverflow = ""
+  rss = ""
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-dark-gray"
+  featured_image = "/images/418635.jpg"
+  recent_posts_number = 2
+  text_color = "white"
+  layout = "single"
